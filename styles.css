@@ -100,6 +100,433 @@ a:hover {
   border-bottom-color: var(--aqua);
 }
 
+.container {
+  width: 100%;
+}
+
+.form-section {
+  background-color: var(--bg-medium);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--blue);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  color: var(--fg-primary);
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--bg-dark);
+  color: var(--fg-primary);
+  border: 1px solid var(--bg-light);
+  border-radius: 0.25rem;
+  font-family: 'AlteHaasGrotesk', sans-serif;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+.submit-btn {
+  background-color: var(--blue);
+  color: var(--bg-dark);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-family: 'AlteHaasGrotesk', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--aqua);
+  transform: translateY(-2px);
+}
+
+.messages-section {
+  margin-top: 2rem;
+}
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.message {
+  background-color: var(--bg-medium);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--green);
+  animation: slideIn 0.3s ease;
+}
+
+.message-author {
+  color: var(--green);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.message-content {
+  color: var(--fg-primary);
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.message-time {
+  color: var(--fg-secondary);
+  font-size: 0.9rem;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.comments-section {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bg-light);
+}
+
+.comments-list {
+  margin-bottom: 1rem;
+}
+
+.comment {
+  background-color: var(--bg-dark);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1rem;
+  border-left: 3px solid var(--blue);
+}
+
+.comment-author {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.comment-content {
+  color: var(--fg-primary);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.comment-time {
+  color: var(--fg-secondary);
+  font-size: 0.8rem;
+}
+
+.no-comments {
+  color: var(--fg-secondary);
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.comment-form {
+  background-color: var(--bg-dark);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+  border: 1px dashed var(--bg-light);
+}
+
+.comment-form .form-group {
+  margin-bottom: 0.75rem;
+}
+
+.comment-form input,
+.comment-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--bg-medium);
+  color: var(--fg-primary);
+  border: 1px solid var(--bg-light);
+  border-radius: 0.25rem;
+  font-family: 'AlteHaasGrotesk', sans-serif;
+  font-size: 0.95rem;
+}
+
+.comment-form input[readonly] {
+  background-color: var(--bg-light);
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+.comment-btn {
+  background-color: var(--purple);
+  color: var(--bg-dark);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-family: 'AlteHaasGrotesk', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.comment-btn:hover {
+  background-color: var(--aqua);
+  transform: translateY(-1px);
+}
+
+.mod-section {
+  background-color: var(--bg-medium);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--orange);
+  text-align: center;
+}
+
+.mod-badge {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--bg-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.mod-badge-small {
+  background-color: var(--orange);
+  color: var(--bg-dark);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.message.pinned {
+  border-left-color: var(--orange);
+  background-image: linear-gradient(90deg, rgba(250, 179, 135, 0.05) 0%, transparent 100%);
+}
+
+.mod-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: var(--bg-dark);
+  border-radius: 0.25rem;
+}
+
+.mod-btn {
+  flex: 1;
+  background-color: var(--bg-light);
+  color: var(--fg-primary);
+  padding: 0.5rem;
+  border: 1px solid var(--orange);
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-family: 'AlteHaasGrotesk', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.mod-btn:hover {
+  background-color: var(--orange);
+  color: var(--bg-dark);
+  transform: translateY(-1px);
+}
+
+.pin-btn {
+  border-color: var(--yellow);
+}
+
+.pin-btn:hover {
+  background-color: var(--yellow);
+}
+
+.delete-btn {
+  border-color: var(--red);
+}
+
+.delete-btn:hover {
+  background-color: var(--red);
+}
+
+.empty-state {
+  color: var(--fg-secondary);
+  font-style: italic;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--bg-light);
+  border-radius: 0.25rem;
+  opacity: 0.7;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.login-box {
+  background-color: var(--bg-medium);
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--blue);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--blue);
+}
+
+.login-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--bg-light);
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  background-color: transparent;
+  color: var(--fg-secondary);
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  margin-bottom: -2px;
+}
+
+.tab-btn.active {
+  color: var(--blue);
+  border-bottom-color: var(--blue);
+}
+
+.tab-btn:hover {
+  color: var(--fg-primary);
+  transform: none;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.error-message {
+  color: var(--red);
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-medium);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--purple);
+}
+
+.current-user {
+  color: var(--green);
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.logout-btn {
+  background-color: var(--red);
+  color: var(--bg-dark);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: var(--orange);
+  transform: translateY(-2px);
+}
+
+.forum-section {
+  animation: fadeIn 0.3s ease;
+}
+
+.mod-tools {
+  background-color: var(--bg-medium);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--yellow);
+}
+
+.promote-form {
+  margin-top: 0.75rem;
+}
+
+.promote-form .submit-btn {
+  margin-top: 0.25rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 button {
   background-color: var(--green);
   color: var(--bg-dark);

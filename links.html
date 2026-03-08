@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Forum</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Forum</h1>
+        
+        <div id="loginSection" class="login-section">
+            <div class="login-box">
+                <h2>Welcome</h2>
+                <div class="login-tabs">
+                    <button class="tab-btn active" data-tab="login-tab">Login</button>
+                    <button class="tab-btn" data-tab="register-tab">Register</button>
+                </div>
+                
+                <div id="login-tab" class="tab-content active">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="loginUsername">Username:</label>
+                            <input type="text" id="loginUsername" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Password:</label>
+                            <input type="password" id="loginPassword" required>
+                        </div>
+                        <button type="submit" class="submit-btn">Login</button>
+                        <div id="loginError" class="error-message"></div>
+                    </form>
+                </div>
+                
+                <div id="register-tab" class="tab-content">
+                    <form id="registerForm">
+                        <div class="form-group">
+                            <label for="registerUsername">Username:</label>
+                            <input type="text" id="registerUsername" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerPassword">Set Password:</label>
+                            <input type="password" id="registerPassword" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="registerConfirm">Confirm Password:</label>
+                            <input type="password" id="registerConfirm" required>
+                        </div>
+                        <button type="submit" class="submit-btn">Create Account</button>
+                        <div id="registerError" class="error-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div id="forumSection" class="forum-section" style="display: none;">
+            <div class="user-header">
+                <div>
+                    <span id="currentUser" class="current-user"></span>
+                    <span id="userBadge" class="mod-badge-small" style="display: none;">MOD</span>
+                </div>
+                <button id="logoutBtn" class="logout-btn">Logout</button>
+            </div>
+            
+            <div class="mod-section" id="modNotice" style="display: none;">
+                <div class="mod-badge">You're a Moderator</div>
+            </div>
+
+            <div class="mod-tools" id="modTools">
+                <h2>Moderator Tools</h2>
+                <form id="promoteForm" class="promote-form" style="display: none;">
+                    <div class="form-group">
+                        <label for="promoteUsername">Promote User To Mod</label>
+                        <input type="text" id="promoteUsername" placeholder="username" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Make Moderator</button>
+                    <div id="promoteMessage" class="error-message"></div>
+                </form>
+            </div>
+            
+            <div class="form-section">
+                <h2>Post a link</h2>
+                <form id="messageForm">
+                    <div class="form-group">
+                        <label for="message">Link and or text:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Post Link</button>
+                </form>
+            </div>
+
+            <div class="messages-section">
+                <h2>Pinned</h2>
+                <div id="pinnedContainer" class="messages-list"></div>
+                
+                <h2>Latest</h2>
+                <div id="messagesContainer" class="messages-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
