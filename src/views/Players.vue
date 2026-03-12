@@ -10,7 +10,7 @@
           <div class="player-head">
             <img
               class="player-avatar"
-              src="https://ibb.co/h1J34GBL"
+              src="https://files.catbox.moe/72nxs6.png"
               alt="Travis profile picture"
             />
             <span class="pill">wpopoff of 9j top two</span>
@@ -71,7 +71,7 @@
           <div class="player-head">
             <img
               class="player-avatar"
-              src="https://ibb.co/zW9dF5Bh"
+              src="https://files.catbox.moe/o54m1o.png"
               alt="Charlie profile picture"
             />
             <span class="pill">top one creator</span>
@@ -100,7 +100,7 @@
             >
               <img
                 class="social-icon"
-                src="https://ibb.co/zW9dF5Bh"
+                src=""
                 alt="Charlie reddit"
               />
             </a>
