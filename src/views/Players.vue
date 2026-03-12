@@ -10,7 +10,7 @@
           <div class="player-head">
             <img
               class="player-avatar"
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0SSr4gk1U6_wvwCXIwf28e9M5eJ4MUMRQRcwMRDSHCHKwL5K1oyUpyIFE2R1_QhqzlVhWuRjgVQtKRoVRTgag5hQDdZd4WwkO2KGNvqbsViQF5YnXBAd_B4Y68rDMFH2pxRNC5sf5J_tOmWBXSf1wkjU-l4qo1Xt4Xpw68Dja7vHTPX1gTTtHQqXFBnf2rt6452cjPdqDFOWI_9x15LcYZztvX_tGr9o7bs_=w1280"
+              src="https://ibb.co/h1J34GBL"
               alt="Travis profile picture"
             />
             <span class="pill">wpopoff of 9j top two</span>
@@ -71,7 +71,7 @@
           <div class="player-head">
             <img
               class="player-avatar"
-              src="https://lh3.googleusercontent.com/sitesv/APaQ0STHI4ptlWfL6oMt22p-cFFGcgox5IybTnUWJEr5uP9JPI1yHSIdEL_HtQ4kJqD6DcIJm_PZuSL_GawqIoKJFVw-ys-1RbWFm8OT3VnOGFLf0kBhUrWR6VHJcne0U-mzXpRUKt0Y2jyTlb_MCPqzDu-B4jpUo3269u5s_IKdiWeu3sk1XWto2bPrl72b1PQohe9-QMDYA97u2JfW5cHOmbAj_Ard_MKzVMHi=w1280"
+              src="https://ibb.co/zW9dF5Bh"
               alt="Charlie profile picture"
             />
             <span class="pill">top one creator</span>
@@ -87,7 +87,7 @@
             >
               <img
                 class="social-icon"
-                src="https://lh3.googleusercontent.com/sitesv/APaQ0SSrpaHDYDYNIF2bfHcTGxj4ukiJ2gd-OH6hUKXnRZaBkIaV9fudEyt_6TPUQjDALv3syWoKubWndGHkzAeV2C2OKLbslkea58JKvuoTx3nEoIL2pODaxb1HHhLlslUX_E7y-jNY9mLCInCONxS5e3hUMaZyfaV_G7WDwCopaiQEACPiYOeTctzdRc_yX-8ha-7aSiJqu-S8AQ"
+                src="https://files.catbox.moe/m0fra3.png"
                 alt="Charlie website"
               />
             </a>
@@ -100,7 +100,7 @@
             >
               <img
                 class="social-icon"
-                src="https://lh3.googleusercontent.com/sitesv/APaQ0SS-jqhV1dsPzzBuXe0DWzvFYRTgvFrlwdTinmHlZp1Eq-NYptZhm1pF32p5jPI75CeQFT-EzwQhvlFRFm9VvC3FZLuWDcXGZZwqNf_dX_efwV9Ln6zcOwsoI5LJOi_25K7w1s596W3r23gxVDJHveWvgrIdtuOQUYYTA_184379K8BDwSPNs33HyItHvWJj3yQ_OLUXsyz0Jw"
+                src="https://ibb.co/zW9dF5Bh"
                 alt="Charlie reddit"
               />
             </a>
@@ -113,7 +113,7 @@
             >
               <img
                 class="social-icon"
-                src="https://lh3.googleusercontent.com/sitesv/APaQ0ST5xUmm5DsquDKueR6q4ZPsT57ddkxIlmhhIV4S5q5fufiC-UrU2nsi8G_r39aZxj8NOZF60FM0hXYvxJa3ocXiwNyoTKFKdX_5xkrU8bZDdrSzDUjq4xQmDAXtq-7lUeyGfG3qosoGD09iEhvn6W3aH8zwbi3yEIcqcFHJ-nEzoKgRZM3-1IL331_E1iZWBMsqjB7ZJPHB4XcN"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg25C9qvj0CKbYzzM8ftfC5LWJkx4nJQn8FQ&s"
                 alt="Charlie codeberg"
               />
             </a>
