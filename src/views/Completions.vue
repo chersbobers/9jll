@@ -3,7 +3,7 @@
     <section class="panel">
       <router-link to="/" class="back-chip">Back to Home</router-link>
       <h1 class="page-title">Completions</h1>
-      <p class="page-subtitle">Recent clears from the list journey.</p>
+      <p class="page-subtitle">Hardest levels beaten by 9j boys.</p>
 
       <ul class="completions-grid">
         <li v-for="entry in completions" :key="entry.name" class="completion-card">

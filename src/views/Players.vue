@@ -3,7 +3,7 @@
     <section class="panel">
       <router-link to="/" class="back-chip">Back to Home</router-link>
       <h1 class="page-title">Players</h1>
-      <p class="page-subtitle">Roster and notes from community entries.</p>
+      <p class="page-subtitle">Players with a bio image and social link (message chersbobers@jabber.today to get your profile added or charlie hinton on teams.)</p>
 
       <ul class="player-list">
         <li class="player-row">

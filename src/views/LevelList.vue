@@ -3,7 +3,7 @@
     <section class="panel">
       <router-link to="/" class="back-chip">Back to Home</router-link>
       <h1 class="page-title">Level List</h1>
-      <p class="page-subtitle">Ranked levels in order, with status shorthand and movement markers.</p>
+      <p class="page-subtitle">Our lil demon list with a key.</p>
 
       <div class="legend-grid">
         <p><span class="pill">*</span> Work in progress</p>

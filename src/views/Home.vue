@@ -3,22 +3,22 @@
     <main class="panel home-panel">
       <p class="home-kicker">Stupid demon list</p>
       <h1 class="page-title home-title">9j Level List</h1>
-      <p class="page-subtitle home-subtitle">Welcome to the 9j Level List!</p>
+      <p class="page-subtitle home-subtitle">The hub for all of 9j gd stuff!</p>
 
       <nav class="button-grid" aria-label="Main navigation">
         <router-link class="hero-btn" to="/level-list">
           <span class="hero-btn__title">Level List</span>
-          <span class="hero-btn__meta">Ranked map list</span>
+          <span class="hero-btn__meta">Levels ranked</span>
         </router-link>
 
         <router-link class="hero-btn" to="/completions">
           <span class="hero-btn__title">Completions</span>
-          <span class="hero-btn__meta">Personal clears</span>
+          <span class="hero-btn__meta">Top levels beaten</span>
         </router-link>
 
         <router-link class="hero-btn" to="/players">
           <span class="hero-btn__title">Players</span>
-          <span class="hero-btn__meta">Community roster</span>
+          <span class="hero-btn__meta">9j's players</span>
         </router-link>
       </nav>
     </main>
