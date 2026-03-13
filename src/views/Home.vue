@@ -35,7 +35,7 @@
 
 .home-kicker {
   display: inline-block;
-  border: 1px solid rgba(45, 226, 192, 0.45);
+  border: 1px solid rgba(228, 183, 229, 0.55);
   color: var(--accent-cool);
   border-radius: 999px;
   padding: 0.25rem 0.8rem;
@@ -46,7 +46,7 @@
 }
 
 .home-title {
-  background: linear-gradient(120deg, #fff 0%, #d5ece7 40%, #ffdcca 95%);
+  background: linear-gradient(120deg, #fff7ff 0%, #e4b7e5 42%, #b288c0 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,15 +66,15 @@
   text-align: left;
   border: 1px solid var(--line-soft);
   border-radius: 16px;
-  background: linear-gradient(140deg, rgba(255, 122, 69, 0.14), rgba(45, 226, 192, 0.1));
+  background: linear-gradient(140deg, rgba(228, 183, 229, 0.22), rgba(126, 90, 155, 0.18));
   padding: 1rem;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .hero-btn:hover {
   transform: translateY(-3px);
-  border-color: rgba(45, 226, 192, 0.7);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  border-color: rgba(228, 183, 229, 0.78);
+  box-shadow: 0 12px 28px rgba(46, 24, 63, 0.28);
 }
 
 .hero-btn__title {

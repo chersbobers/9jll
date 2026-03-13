@@ -59,22 +59,22 @@ const completions = [
 }
 
 .tier.extreme {
-  color: #ffb8ac;
-  background: rgba(255, 88, 46, 0.2);
+  color: #fff4ff;
+  background: rgba(126, 90, 155, 0.38);
 }
 
 .tier.insane {
-  color: #c0fff2;
-  background: rgba(45, 226, 192, 0.2);
+  color: #fff7ff;
+  background: rgba(178, 136, 192, 0.34);
 }
 
 .tier.hard {
-  color: #ffdba7;
-  background: rgba(255, 165, 74, 0.2);
+  color: #fff4ff;
+  background: rgba(151, 111, 177, 0.34);
 }
 
 .tier.medium {
-  color: #fff0af;
-  background: rgba(255, 209, 102, 0.2);
+  color: #fff7ff;
+  background: rgba(228, 183, 229, 0.28);
 }
 </style>

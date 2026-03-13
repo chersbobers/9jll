@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Website doodle icon">
+  <circle cx="32" cy="32" r="22" fill="#ff4500"/>
+  <path d="M14.5 32h35" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M32 10c6 5.8 9.3 13.3 9.3 22S38 48.2 32 54" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M32 10c-6 5.8-9.3 13.3-9.3 22S26 48.2 32 54" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M18.5 23.5c4.2-2.4 8.6-3.4 13.5-3.4s9.3 1 13.5 3.4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M18.5 40.5c4.2 2.4 8.6 3.4 13.5 3.4s9.3-1 13.5-3.4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none"/>
+</svg>

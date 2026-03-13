@@ -105,7 +105,7 @@ const copyId = async (rank: number, id: string) => {
   border: 1px solid var(--line-soft);
   border-radius: 14px;
   padding: 0.8rem;
-  background: linear-gradient(135deg, rgba(255, 122, 69, 0.12), rgba(45, 226, 192, 0.06));
+  background: linear-gradient(135deg, rgba(228, 183, 229, 0.18), rgba(126, 90, 155, 0.14));
 }
 
 .rank-index {
@@ -142,12 +142,12 @@ const copyId = async (rank: number, id: string) => {
 
 .id-pill:hover {
   color: var(--text-main);
-  border-color: rgba(45, 226, 192, 0.8);
+  border-color: rgba(228, 183, 229, 0.78);
 }
 
 .id-pill--copied {
-  color: #081312;
-  border-color: rgba(45, 226, 192, 0.9);
-  background: rgba(45, 226, 192, 0.9);
+  color: #2f173a;
+  border-color: rgba(228, 183, 229, 0.92);
+  background: rgba(228, 183, 229, 0.92);
 }
 </style>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Codeberg doodle icon">
+  <circle cx="32" cy="32" r="24" fill="#ff4500"/>
+  <path d="M14 42c2.8-9.6 8.9-18.1 18-23c9.1 4.9 15.2 13.4 18 23" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 22l-9.8 20h19.6z" fill="#ffffff"/>
+  <path d="M20 44.5c3.5 2.4 7.6 3.5 12 3.5s8.5-1.1 12-3.5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,13 +1,13 @@
 :root {
-  --bg-ink: #0d1420;
-  --bg-panel: rgba(13, 20, 32, 0.76);
-  --bg-panel-strong: rgba(12, 17, 28, 0.9);
-  --line-soft: rgba(255, 255, 255, 0.14);
-  --text-main: #f2f5f9;
-  --text-muted: #b8c1cc;
-  --accent-hot: #ff7a45;
-  --accent-cool: #2de2c0;
-  --accent-warn: #ffd166;
+  --bg-ink: #251731;
+  --bg-panel: rgba(51, 34, 68, 0.7);
+  --bg-panel-strong: rgba(43, 28, 59, 0.86);
+  --line-soft: rgba(245, 230, 255, 0.2);
+  --text-main: #fff7ff;
+  --text-muted: #dfc9e5;
+  --accent-hot: #e4b7e5;
+  --accent-cool: #b288c0;
+  --accent-warn: #7e5a9b;
 }
 
 * {
@@ -26,10 +26,7 @@ body,
 body {
   font-family: 'Trebuchet MS', 'Avenir Next', 'Segoe UI', sans-serif;
   color: var(--text-main);
-  background:
-    radial-gradient(circle at 12% 8%, rgba(45, 226, 192, 0.18), transparent 40%),
-    radial-gradient(circle at 88% 18%, rgba(255, 122, 69, 0.2), transparent 45%),
-    linear-gradient(165deg, #0b111b 0%, #131f2e 52%, #0a1018 100%);
+  background: #7e5a9b;
   line-height: 1.45;
 }
 
@@ -51,7 +48,7 @@ a {
   border: 1px solid var(--line-soft);
   border-radius: 24px;
   backdrop-filter: blur(12px);
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 24px 60px rgba(35, 17, 49, 0.38);
   padding: clamp(1rem, 3vw, 2rem);
 }
 
@@ -68,7 +65,7 @@ a {
 
 .back-chip:hover {
   color: var(--text-main);
-  border-color: rgba(45, 226, 192, 0.7);
+  border-color: rgba(228, 183, 229, 0.72);
 }
 
 .page-title {
