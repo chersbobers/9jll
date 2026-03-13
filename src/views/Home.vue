@@ -3,7 +3,7 @@
     <main class="panel home-panel">
       <p class="home-kicker">Stupid demon list</p>
       <h1 class="page-title home-title">9j Level List</h1>
-      <p class="page-subtitle home-subtitle">The hub for all of 9j gd stuff!</p>
+      <p class="page-subtitle home-subtitle">The hub for all of 9j gd stuff! Part of the 9j's project collection</p>
 
       <nav class="button-grid" aria-label="Main navigation">
         <router-link class="hero-btn" to="/level-list">
